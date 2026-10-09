@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Goodyvesta - Real estate services in Abakaliki, Ebonyi State." />
+  <title>Goodyvesta | Real Estate</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">Goodyvesta.</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#updates">Updates</a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search properties, updates, pages..." />
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="property">Properties</button>
+      <button class="filter" data-filter="update">Updates</button>
+      <button class="filter" data-filter="page">Pages</button>
+    </div>
+  </div>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">REAL ESTATE • ABAKALIKI, EBONYI STATE</p>
+        <h1>Goodyvesta</h1>
+        <p>Find apartments to rent, land to buy, and properties worth investing in.</p>
+        <a class="btn" href="#properties">View Properties</a>
+      </div>
+    </section>
+
+    <section id="about" class="story section">
+      <div>
+        <p class="eyebrow">Our Story</p>
+        <h2>Goodyvesta</h2>
+      </div>
+      <div class="story-copy">
+        <p>Goodyvesta is a real estate service based in Abakaliki, Ebonyi State. We help people find apartments to rent, land to buy, and properties worth investing in, with clear prices and no hidden charges.</p>
+        <p>Every listing is checked in person before it goes online. Message us on WhatsApp and you'll speak to a member of the Goodyvesta team.</p>
+        <div class="actions">
+          <a class="text-btn" href="tel:+2340000000000">Call Us</a>
+          <a class="text-btn" href="mailto:hello@goodyvesta.com">Mail Us</a>
+          <a class="btn small" href="#contact">Enquire Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="properties" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Properties</p>
+          <h2>Featured Properties</h2>
+        </div>
+      </div>
+      <div class="property-grid">
+        <article class="property-card searchable property">
+          <div class="property-image land"><span>LAND</span></div>
+          <div class="card-body">
+            <p class="tag">For Sale</p>
+            <h3>Residential Land in Abakaliki</h3>
+            <p>Well-positioned land suitable for residential or investment purposes.</p>
+            <button class="outline-btn enquire-property" data-property="Residential Land in Abakaliki">Enquire</button>
+          </div>
+        </article>
+        <article class="property-card searchable property">
+          <div class="property-image apartment"><span>APARTMENT</span></div>
+          <div class="card-body">
+            <p class="tag">For Rent</p>
+            <h3>Apartment in Abakaliki</h3>
+            <p>Comfortable accommodation in a convenient location.</p>
+            <button class="outline-btn enquire-property" data-property="Apartment in Abakaliki">Enquire</button>
+          </div>
+        </article>
+        <article class="property-card searchable property">
+          <div class="property-image house"><span>PROPERTY</span></div>
+          <div class="card-body">
+            <p class="tag">Investment</p>
+            <h3>Property Opportunities</h3>
+            <p>Ask Goodyvesta about available properties and off-market opportunities.</p>
+            <button class="outline-btn enquire-property" data-property="Property Opportunities">Enquire</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="updates" class="section updates">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Latest Journal</p>
+          <h2>Updates</h2>
+        </div>
+        <a class="text-btn" href="#updates">View All</a>
+      </div>
+      <article class="journal-card searchable update">
+        <div>
+          <p class="tag">LATEST • OCT 04, 2026</p>
+          <h3>Welcome to Goodyvesta</h3>
+          <p>Goodyvesta helps you find apartments for rent, land for sale, and properties worth investing in across Abakaliki and Ebonyi State. We keep things simple: clear prices, no hidden fees, and inspections before listings go online.</p>
+        </div>
+        <a class="text-btn" href="#contact">Read More →</a>
+      </article>
+    </section>
+
+    <section class="newsletter section">
+      <div>
+        <p class="eyebrow">Stay Informed</p>
+        <h2>Monthly insights and private off-market listings.</h2>
+      </div>
+      <form id="newsletterForm" class="newsletter-form">
+        <input type="email" required placeholder="Your email address" />
+        <button class="btn" type="submit">SUBSCRIBE</button>
+        <small>You can unsubscribe anytime.</small>
+      </form>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Enquire Now</h2>
+        <p>Tell us what property you are looking for and we'll get back to you.</p>
+        <a class="whatsapp" target="_blank" rel="noopener" href="https://wa.me/2340000000000">Message us on WhatsApp</a>
+      </div>
+      <form id="enquiryForm" class="form">
+        <label>Full Name *<input name="name" required placeholder="Full Name" /></label>
+        <label>Email *<input name="email" type="email" required placeholder="your@email.com" /></label>
+        <label>Phone Number *<input name="phone" required placeholder="Phone number" /></label>
+        <label>Message *<textarea name="message" required placeholder="Tell us what you need"></textarea></label>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>GOODYVESTA.</strong><p>Real estate services in Abakaliki, Ebonyi State.</p></div>
+    <div><a href="#home">Home</a><a href="#properties">Properties</a><a href="#updates">Updates</a><a href="#contact">Contact</a></div>
+    <p>© 2026 GOODYVESTA. All rights reserved.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
