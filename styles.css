@@ -18,3 +18,70 @@ display:block;
 padding:12px 0;
 }
 }}}
+/* Goodyvesta luxury design enhancement */
+
+:root {
+  --gold: #b5965a;
+  --dark: #191713;
+  --cream: #f7f4ed;
+}
+
+.brand {
+  color: var(--dark);
+}
+
+.brand::first-letter {
+  color: var(--gold);
+}
+
+.btn {
+  background: var(--dark);
+  border-color: var(--gold);
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #806638;
+  color: #fff;
+}
+
+.property-card {
+  border-color: #e5dccb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.09);
+}
+
+.property-image {
+  border-bottom: 3px solid var(--gold);
+}
+
+.section h2,
+.story h2 {
+  color: var(--dark);
+}
+
+.newsletter {
+  background: var(--cream);
+}
+
+.tag {
+  color: #92713a;
+}
+
+.outline-btn:hover {
+  background: var(--dark);
+  color: #fff;
+}
+
+.text-btn:hover {
+  color: #92713a;
+}
+
+.site-header {
+  border-bottom-color: #e5dccb;
+}
+
