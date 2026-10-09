@@ -84,4 +84,39 @@ padding:12px 0;
 .site-header {
   border-bottom-color: #e5dccb;
 }
+/* Stronger Goodyvesta luxury styling */
+
+.hero {
+  background: linear-gradient(110deg, #100f0c, #4b3a1d, #17140e) !important;
+  border-bottom: 4px solid #b5965a;
+}
+
+.hero h1 {
+  color: #d6b56d;
+}
+
+.hero .btn {
+  background: #b5965a;
+  border-color: #b5965a;
+  color: #17140e;
+}
+
+.site-header .brand {
+  color: #b5965a;
+}
+
+.site-header nav a:hover {
+  color: #b5965a;
+}
+
+.section-head h2,
+.story h2,
+.contact h2 {
+  border-left: 4px solid #b5965a;
+  padding-left: 12px;
+}
+
+.footer {
+  border-top: 4px solid #b5965a;
+}
 
